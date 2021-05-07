@@ -1,0 +1,16 @@
+*.project binary
+*.xlsx binary
+*.pot binary
+*.exe binary
+*.doc binary
+*.pdf binary
+*.docx binary
+*.projectarchive binary
+*.wmv binary
+*.png binary
+*.jpg binary
+*.pdn binary
+*.dsn binary
+*.gdoc binary
+*.gsheet binary
+*.compiled-library binary
