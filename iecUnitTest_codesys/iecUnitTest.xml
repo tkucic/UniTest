@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-10T19:50:19.7336668" />
-  <contentHeader name="Iec Unit Test" version="0.1" modificationDateTime="2021-05-10T19:50:16.8344597" organization="TK Automation" author="Toni Kucic">
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-10T20:20:27.8904239" />
+  <contentHeader name="Iec Unit Test" version="0.1" modificationDateTime="2021-05-10T20:20:18.2154107" organization="TK Automation" author="Toni Kucic">
     <Comment>Library written in pure IEC 61131-3 Structured text that can be used for unit testing of any PLC POU. This library has arisen from the need of having a manufacturer and IDE independent unit test framework that is easily portable to other platform as the community requires. There are good unit frameworks existing for TwinCat, Codesys, B&amp;R and many more platforms but none of them quite solve the extreme cases.</Comment>
     <coordinateInfo>
       <fbd>
@@ -9576,22 +9576,6 @@ PassRate := PassRate / NrPousUnderTest;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -9781,22 +9765,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -9990,22 +9958,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -10195,22 +10147,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -10404,22 +10340,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -10609,22 +10529,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -11071,22 +10975,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -11278,22 +11166,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -11483,22 +11355,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -13903,22 +13759,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -14108,22 +13948,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -14317,22 +14141,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -14522,22 +14330,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -14731,22 +14523,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -14936,22 +14712,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -15145,22 +14905,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -15350,22 +15094,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -15559,22 +15287,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -15764,22 +15476,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -15973,22 +15669,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -16178,22 +15858,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -16387,22 +16051,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -16592,22 +16240,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -16801,22 +16433,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -17006,22 +16622,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -17215,22 +16815,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -17420,22 +17004,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -17629,22 +17197,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -17834,22 +17386,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -18043,22 +17579,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <string />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <string />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -18248,22 +17768,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -18457,22 +17961,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -18662,22 +18150,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -18871,22 +18343,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -19076,22 +18532,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <wstring />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <wstring />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -19285,22 +18725,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -19490,22 +18914,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -19699,22 +19107,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -19904,22 +19296,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -20113,22 +19489,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -20318,22 +19678,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -20527,22 +19871,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -20734,22 +20062,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -20939,22 +20251,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -21654,22 +20950,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -21859,22 +21139,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <USINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -22068,22 +21332,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -22275,22 +21523,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -22480,22 +21712,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -22942,22 +22158,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -23402,22 +22602,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -23860,22 +23044,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -24575,22 +23743,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -24780,22 +23932,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -24989,22 +24125,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -25194,22 +24314,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -25403,22 +24507,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -25608,22 +24696,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -25817,22 +24889,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -26022,22 +25078,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -26231,22 +25271,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UDINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -26436,22 +25460,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -26645,22 +25653,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -26850,22 +25842,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -27563,22 +26539,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -28531,22 +27491,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -28989,22 +27933,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -30969,22 +29897,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -31174,22 +30086,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -31383,22 +30279,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -31590,22 +30470,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -31795,22 +30659,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -34862,44 +33710,12 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 1</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase1_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 1</xhtml>
-                      </documentation>
-                    </variable>
                     <variable name="vTestCase2_act">
                       <type>
                         <BOOL />
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase2_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -34916,7 +33732,7 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
 	vTestCases[1].desc[2] := 'PASS IF: Return value is FALSE';
 	
 	(*Setup needed variables*)
-	vTestCase1_xp := FALSE;
+	vTestCase2_act := FALSE;
 END_IF</xhtml>
                       </ST>
                     </body>
@@ -34973,7 +33789,7 @@ END_IF</xhtml>
                       <ST>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">IF vTestCases[1].state = utTestCaseStates.RUNNING THEN
 	(*Run the test case*)
-	IF NOT assertTrue(vTestCase1_xp) THEN
+	IF NOT assertTrue(vTestCase2_act) THEN
 		vTestCases[1].state := utTestCaseStates.PASSED;
 		vTestCases[1].msg := 'Condition was False and function returned FALSE -&gt; PASS';
 	ELSE
@@ -35298,44 +34114,12 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 1</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase1_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 1</xhtml>
-                      </documentation>
-                    </variable>
                     <variable name="vTestCase2_act">
                       <type>
                         <BOOL />
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase2_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BOOL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -35394,7 +34178,7 @@ END_IF</xhtml>
 	vTestCases[1].desc[2] := 'PASS IF: Return value is FALSE';
 	
 	(*Setup needed variables*)
-	vTestCase1_xp := TRUE;
+	vTestCase2_act := TRUE;
 END_IF</xhtml>
                       </ST>
                     </body>
@@ -35409,7 +34193,7 @@ END_IF</xhtml>
                       <ST>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">IF vTestCases[1].state = utTestCaseStates.RUNNING THEN
 	(*Run the test case*)
-	IF NOT assertFalse(vTestCase1_xp) THEN
+	IF NOT assertFalse(vTestCase2_act) THEN
 		vTestCases[1].state := utTestCaseStates.PASSED;
 		vTestCases[1].msg := 'Condition was True and function returned FALSE -&gt; PASS';
 	ELSE
@@ -41797,22 +40581,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <BYTE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -42002,22 +40770,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TOD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -42211,22 +40963,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -42416,22 +41152,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <WORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -42625,22 +41345,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <UINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -42830,22 +41534,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LWORD />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -43039,22 +41727,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LDATE_AND_TIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -43244,22 +41916,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LREAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -43453,22 +42109,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <INT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -43658,22 +42298,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <wstring />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <wstring />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -43867,22 +42491,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -44072,22 +42680,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -44281,22 +42873,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <derived name="LTIME_OF_DAY" />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -44486,22 +43062,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <SINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -44695,22 +43255,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <REAL />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -44900,22 +43444,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DATE />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -45109,22 +43637,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -45314,22 +43826,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <string />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <string />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -45523,22 +44019,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <DT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -45728,22 +44208,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <TIME />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
@@ -45937,22 +44401,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
                       </documentation>
                     </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <LINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
                   </localVars>
                 </interface>
                 <actions>
@@ -46142,22 +44590,6 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                       </type>
                       <documentation>
                         <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 2</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_act">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 1 of test case 3</xhtml>
-                      </documentation>
-                    </variable>
-                    <variable name="vTestCase3_xp">
-                      <type>
-                        <ULINT />
-                      </type>
-                      <documentation>
-                        <xhtml xmlns="http://www.w3.org/1999/xhtml">Test data 2 of test case 3</xhtml>
                       </documentation>
                     </variable>
                   </localVars>
