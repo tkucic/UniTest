@@ -13,8 +13,8 @@
 | VAR_IN_OUT | TestCases | ARRAY[0..20] OF utTestCase |  |  | Array of test case definition |  
 | VAR_OUTPUT | Summary | utTestCaseSummary |  |  | Summary of the test results |  
 | VAR | i | UINT |  |  | Iterator variable |  
-| VAR | runCmd | R_TRIG |  |  |  |  
-| VAR | resetCmd | R_TRIG |  |  |  |  
+| VAR | runCmd | R_TRIG |  |  | Trigger to prevent constant run commands |  
+| VAR | resetCmd | R_TRIG |  |  | Trigger to prevent constant reset commands |  
 
 
 ## Metrics  
