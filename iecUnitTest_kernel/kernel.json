@@ -11,7 +11,7 @@
   },
   "namespaces": [
     {
-      "name": "Global",
+      "name": "iecUnitTest",
       "prgs": [],
       "fbs": [
         {
@@ -26799,7 +26799,7 @@
     {
       "Type": "Data type",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utTestCase",
       "Child": "",
       "Sev": "Quality",
@@ -26809,7 +26809,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utTestCaseStates",
       "Child": "SETUP",
       "Sev": "Quality",
@@ -26819,7 +26819,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utTestCaseStates",
       "Child": "RUNNING",
       "Sev": "Quality",
@@ -26829,7 +26829,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utTestCaseStates",
       "Child": "PASSED",
       "Sev": "Quality",
@@ -26839,7 +26839,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utTestCaseStates",
       "Child": "FAILED",
       "Sev": "Quality",
@@ -26849,7 +26849,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utErrors",
       "Child": "NO_ERROR",
       "Sev": "Quality",
@@ -26859,7 +26859,7 @@
     {
       "Type": "Data type component",
       "Project": "Iec Unit Test",
-      "Namespace": "Global",
+      "Namespace": "iecUnitTest",
       "Object": "utErrors",
       "Child": "NO_TEST_CASES_DEFINED",
       "Sev": "Quality",
