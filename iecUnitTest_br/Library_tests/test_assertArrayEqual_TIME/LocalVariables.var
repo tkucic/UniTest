@@ -1,0 +1,12 @@
+VAR 
+    vTestCases : ARRAY[0..20] OF utTestCase; (*Definition of all test cases for this POU*)
+    testRunner : utTestSuite; (*Test Suite fb instance to run the tests*)
+    vRunAll : BOOL; (*Manual command to run all tests for this POU*)
+    vResetAll : BOOL; (*Manual command to reset all tests for this POU*)
+    vTestCase1_act : ARRAY[0..70] OF TIME; (*Array data 1 of test case 1*)
+    vTestCase1_xp : ARRAY[0..70] OF TIME; (*Array data 2 of test case 1*)
+    vTestCase2_act : ARRAY[0..70] OF TIME; (*Array data 3 of test case 2*)
+    vTestCase2_xp : ARRAY[0..70] OF TIME; (*Array data 4 of test case 2*)
+    i : UINT; (*Iterator variable i*)
+    j : UINT; (*Iterator variable j*)
+END_VAR

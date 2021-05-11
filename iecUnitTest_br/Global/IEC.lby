@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.6.4.67 SP?>
+<Library Version="" SubType="IEC" Description="" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Global.typ</File>
+    <File Description="Exported constants">Global.var</File>
+    <File Description="Exported functions and function blocks">Global.fun</File>
+  </Files>
+  <Dependencies>
+  </Dependencies>
+</Library>

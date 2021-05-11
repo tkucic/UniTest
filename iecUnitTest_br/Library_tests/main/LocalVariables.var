@@ -1,0 +1,3 @@
+VAR 
+    testReporter : utTestReporter; (*Calculator for summaries of tests*)
+END_VAR
