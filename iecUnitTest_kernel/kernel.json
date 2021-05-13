@@ -8271,7 +8271,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 25,\n\tName := 'assertNotEqual_BOOL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 25,\n\tName := 'assertNotEqual_BOOL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8375,7 +8375,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 32,\n\tName := 'assertNotEqual_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 32,\n\tName := 'assertNotEqual_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8479,7 +8479,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 46,\n\tName := 'assertNotEqual_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 46,\n\tName := 'assertNotEqual_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8583,7 +8583,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 53,\n\tName := 'assertGreater_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 53,\n\tName := 'assertGreater_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8687,7 +8687,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 39,\n\tName := 'assertNotEqual_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 39,\n\tName := 'assertNotEqual_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8791,7 +8791,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 109,\n\tName := 'assertLess_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 109,\n\tName := 'assertLess_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -8909,7 +8909,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 116,\n\tName := 'assertLessEqual_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 116,\n\tName := 'assertLessEqual_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9023,7 +9023,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 95,\n\tName := 'assertLess_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 95,\n\tName := 'assertLess_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9127,7 +9127,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 102,\n\tName := 'assertLess_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 102,\n\tName := 'assertLess_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9231,7 +9231,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 67,\n\tName := 'assertGreater_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 67,\n\tName := 'assertGreater_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9349,7 +9349,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 81,\n\tName := 'assertGreaterEqual_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 81,\n\tName := 'assertGreaterEqual_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9477,7 +9477,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 88,\n\tName := 'assertGreaterEqual_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 88,\n\tName := 'assertGreaterEqual_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9605,7 +9605,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 74,\n\tName := 'assertGreaterEqual_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 74,\n\tName := 'assertGreaterEqual_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9733,7 +9733,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 158,\n\tName := 'assertArrayEqual_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 158,\n\tName := 'assertArrayEqual_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -9851,7 +9851,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 123,\n\tName := 'assertLessEqual_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 123,\n\tName := 'assertLessEqual_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -9979,7 +9979,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 151,\n\tName := 'assertArrayEqual_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 151,\n\tName := 'assertArrayEqual_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10097,7 +10097,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 130,\n\tName := 'assertLessEqual_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 130,\n\tName := 'assertLessEqual_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -10225,7 +10225,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 144,\n\tName := 'assertArrayEqual_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 144,\n\tName := 'assertArrayEqual_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10343,7 +10343,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 137,\n\tName := 'assertLessEqual_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 137,\n\tName := 'assertLessEqual_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -10457,7 +10457,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 0,\n\tName := 'assertEqual_BOOL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 0,\n\tName := 'assertEqual_BOOL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10561,7 +10561,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 6,\n\tName := 'assertEqual_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 6,\n\tName := 'assertEqual_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10665,7 +10665,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 3,\n\tName := 'assertEqual_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 3,\n\tName := 'assertEqual_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10769,7 +10769,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 10,\n\tName := 'assertEqual_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 10,\n\tName := 'assertEqual_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10873,7 +10873,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 60,\n\tName := 'assertGreater_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 60,\n\tName := 'assertGreater_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -10977,7 +10977,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 26,\n\tName := 'assertNotEqual_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 26,\n\tName := 'assertNotEqual_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -11081,7 +11081,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 27,\n\tName := 'assertNotEqual_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 27,\n\tName := 'assertNotEqual_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -11185,7 +11185,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 58,\n\tName := 'assertGreater_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 58,\n\tName := 'assertGreater_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -11289,7 +11289,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 33,\n\tName := 'assertNotEqual_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 33,\n\tName := 'assertNotEqual_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -11393,7 +11393,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 44,\n\tName := 'assertNotEqual_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 44,\n\tName := 'assertNotEqual_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -11497,7 +11497,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 47,\n\tName := 'assertNotEqual_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 47,\n\tName := 'assertNotEqual_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -11601,7 +11601,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 56,\n\tName := 'assertGreater_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 56,\n\tName := 'assertGreater_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -11705,7 +11705,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 57,\n\tName := 'assertGreater_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 57,\n\tName := 'assertGreater_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -11809,7 +11809,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 34,\n\tName := 'assertNotEqual_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 34,\n\tName := 'assertNotEqual_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -11913,7 +11913,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 54,\n\tName := 'assertGreater_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 54,\n\tName := 'assertGreater_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -12017,7 +12017,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 31,\n\tName := 'assertNotEqual_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 31,\n\tName := 'assertNotEqual_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12121,7 +12121,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 52,\n\tName := 'assertGreater_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 52,\n\tName := 'assertGreater_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12225,7 +12225,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 38,\n\tName := 'assertNotEqual_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 38,\n\tName := 'assertNotEqual_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12329,7 +12329,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 55,\n\tName := 'assertGreater_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 55,\n\tName := 'assertGreater_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -12433,7 +12433,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 45,\n\tName := 'assertNotEqual_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 45,\n\tName := 'assertNotEqual_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12537,7 +12537,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 40,\n\tName := 'assertNotEqual_STRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 40,\n\tName := 'assertNotEqual_STRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -12641,7 +12641,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 48,\n\tName := 'assertNotEqual_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 48,\n\tName := 'assertNotEqual_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -12745,7 +12745,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 59,\n\tName := 'assertGreater_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 59,\n\tName := 'assertGreater_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12849,7 +12849,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 49,\n\tName := 'assertNotEqual_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 49,\n\tName := 'assertNotEqual_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -12953,7 +12953,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 50,\n\tName := 'assertGreater_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 50,\n\tName := 'assertGreater_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13057,7 +13057,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 41,\n\tName := 'assertNotEqual_WSTRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 41,\n\tName := 'assertNotEqual_WSTRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -13161,7 +13161,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 28,\n\tName := 'assertNotEqual_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 28,\n\tName := 'assertNotEqual_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13265,7 +13265,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 29,\n\tName := 'assertNotEqual_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 29,\n\tName := 'assertNotEqual_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13369,7 +13369,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 35,\n\tName := 'assertNotEqual_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 35,\n\tName := 'assertNotEqual_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13473,7 +13473,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 36,\n\tName := 'assertNotEqual_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 36,\n\tName := 'assertNotEqual_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13577,7 +13577,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 30,\n\tName := 'assertNotEqual_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 30,\n\tName := 'assertNotEqual_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -13681,7 +13681,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 37,\n\tName := 'assertNotEqual_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 37,\n\tName := 'assertNotEqual_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -13785,7 +13785,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 51,\n\tName := 'assertGreater_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 51,\n\tName := 'assertGreater_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -13889,7 +13889,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 42,\n\tName := 'assertNotEqual_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 42,\n\tName := 'assertNotEqual_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -13993,7 +13993,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 43,\n\tName := 'assertNotEqual_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 43,\n\tName := 'assertNotEqual_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -14111,7 +14111,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 93,\n\tName := 'assertGreaterEqual_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 93,\n\tName := 'assertGreaterEqual_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -14239,7 +14239,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 122,\n\tName := 'assertLessEqual_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 122,\n\tName := 'assertLessEqual_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -14353,7 +14353,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 98,\n\tName := 'assertLess_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 98,\n\tName := 'assertLess_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -14457,7 +14457,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 99,\n\tName := 'assertLess_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 99,\n\tName := 'assertLess_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -14561,7 +14561,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 110,\n\tName := 'assertLess_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 110,\n\tName := 'assertLess_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -14665,7 +14665,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 112,\n\tName := 'assertLess_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 112,\n\tName := 'assertLess_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -14769,7 +14769,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 113,\n\tName := 'assertLess_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 113,\n\tName := 'assertLess_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -14887,7 +14887,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 121,\n\tName := 'assertLessEqual_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 121,\n\tName := 'assertLessEqual_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -15001,7 +15001,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 100,\n\tName := 'assertLess_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 100,\n\tName := 'assertLess_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -15119,7 +15119,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 118,\n\tName := 'assertLessEqual_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 118,\n\tName := 'assertLessEqual_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -15233,7 +15233,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 97,\n\tName := 'assertLess_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 97,\n\tName := 'assertLess_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -15351,7 +15351,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 117,\n\tName := 'assertLessEqual_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 117,\n\tName := 'assertLessEqual_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -15465,7 +15465,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 104,\n\tName := 'assertLess_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 104,\n\tName := 'assertLess_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -15583,7 +15583,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 119,\n\tName := 'assertLessEqual_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 119,\n\tName := 'assertLessEqual_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -15711,7 +15711,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 120,\n\tName := 'assertLessEqual_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 120,\n\tName := 'assertLessEqual_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -15825,7 +15825,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 111,\n\tName := 'assertLess_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 111,\n\tName := 'assertLess_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -15929,7 +15929,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 105,\n\tName := 'assertLess_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 105,\n\tName := 'assertLess_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16033,7 +16033,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 106,\n\tName := 'assertLess_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 106,\n\tName := 'assertLess_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16137,7 +16137,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 114,\n\tName := 'assertLess_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 114,\n\tName := 'assertLess_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -16241,7 +16241,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 107,\n\tName := 'assertLess_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 107,\n\tName := 'assertLess_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -16345,7 +16345,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 94,\n\tName := 'assertLess_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 94,\n\tName := 'assertLess_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16449,7 +16449,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 101,\n\tName := 'assertLess_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 101,\n\tName := 'assertLess_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16553,7 +16553,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 96,\n\tName := 'assertLess_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 96,\n\tName := 'assertLess_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -16657,7 +16657,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 103,\n\tName := 'assertLess_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 103,\n\tName := 'assertLess_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -16761,7 +16761,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 115,\n\tName := 'assertLess_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 115,\n\tName := 'assertLess_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16865,7 +16865,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 108,\n\tName := 'assertLess_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 108,\n\tName := 'assertLess_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -16969,7 +16969,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 62,\n\tName := 'assertGreater_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 62,\n\tName := 'assertGreater_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -17087,7 +17087,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 91,\n\tName := 'assertGreaterEqual_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 91,\n\tName := 'assertGreaterEqual_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -17215,7 +17215,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 92,\n\tName := 'assertGreaterEqual_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 92,\n\tName := 'assertGreaterEqual_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -17329,7 +17329,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 68,\n\tName := 'assertGreater_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 68,\n\tName := 'assertGreater_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -17447,7 +17447,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 79,\n\tName := 'assertGreaterEqual_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 79,\n\tName := 'assertGreaterEqual_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -17575,7 +17575,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 82,\n\tName := 'assertGreaterEqual_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 82,\n\tName := 'assertGreaterEqual_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -17703,7 +17703,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 90,\n\tName := 'assertGreaterEqual_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 90,\n\tName := 'assertGreaterEqual_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -17817,7 +17817,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 69,\n\tName := 'assertGreater_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 69,\n\tName := 'assertGreater_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -17935,7 +17935,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 87,\n\tName := 'assertGreaterEqual_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 87,\n\tName := 'assertGreaterEqual_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -18049,7 +18049,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 66,\n\tName := 'assertGreater_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 66,\n\tName := 'assertGreater_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -18167,7 +18167,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 86,\n\tName := 'assertGreaterEqual_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 86,\n\tName := 'assertGreaterEqual_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -18295,7 +18295,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 73,\n\tName := 'assertGreaterEqual_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 73,\n\tName := 'assertGreaterEqual_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -18423,7 +18423,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 89,\n\tName := 'assertGreaterEqual_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 89,\n\tName := 'assertGreaterEqual_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -18551,7 +18551,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 80,\n\tName := 'assertGreaterEqual_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 80,\n\tName := 'assertGreaterEqual_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -18679,7 +18679,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 75,\n\tName := 'assertGreaterEqual_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 75,\n\tName := 'assertGreaterEqual_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -18807,7 +18807,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 83,\n\tName := 'assertGreaterEqual_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 83,\n\tName := 'assertGreaterEqual_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -18935,7 +18935,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 76,\n\tName := 'assertGreaterEqual_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 76,\n\tName := 'assertGreaterEqual_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -19049,7 +19049,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 63,\n\tName := 'assertGreater_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 63,\n\tName := 'assertGreater_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19153,7 +19153,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 64,\n\tName := 'assertGreater_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 64,\n\tName := 'assertGreater_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19257,7 +19257,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 70,\n\tName := 'assertGreater_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 70,\n\tName := 'assertGreater_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19361,7 +19361,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 71,\n\tName := 'assertGreater_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 71,\n\tName := 'assertGreater_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19465,7 +19465,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 65,\n\tName := 'assertGreater_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 65,\n\tName := 'assertGreater_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -19583,7 +19583,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 72,\n\tName := 'assertGreaterEqual_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 72,\n\tName := 'assertGreaterEqual_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -19711,7 +19711,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 84,\n\tName := 'assertGreaterEqual_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 84,\n\tName := 'assertGreaterEqual_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19839,7 +19839,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 85,\n\tName := 'assertGreaterEqual_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 85,\n\tName := 'assertGreaterEqual_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -19967,7 +19967,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 77,\n\tName := 'assertGreaterEqual_USINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 77,\n\tName := 'assertGreaterEqual_USINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20095,7 +20095,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 78,\n\tName := 'assertGreaterEqual_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 78,\n\tName := 'assertGreaterEqual_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20223,7 +20223,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 154,\n\tName := 'assertArrayEqual_WSTRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 154,\n\tName := 'assertArrayEqual_WSTRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20341,7 +20341,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 155,\n\tName := 'assertArrayEqual_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 155,\n\tName := 'assertArrayEqual_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20459,7 +20459,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 160,\n\tName := 'assertArrayEqual_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 160,\n\tName := 'assertArrayEqual_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -20577,7 +20577,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 161,\n\tName := 'assertArrayEqual_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 161,\n\tName := 'assertArrayEqual_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20695,7 +20695,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 162,\n\tName := 'assertArrayEqual_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 162,\n\tName := 'assertArrayEqual_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -20813,7 +20813,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 159,\n\tName := 'assertArrayEqual_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 159,\n\tName := 'assertArrayEqual_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -20931,7 +20931,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 156,\n\tName := 'assertArrayEqual_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 156,\n\tName := 'assertArrayEqual_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -21021,7 +21021,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 163,\n\tName := 'assertTrue',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 163,\n\tName := 'assertTrue',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -21139,7 +21139,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 157,\n\tName := 'assertArrayEqual_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 157,\n\tName := 'assertArrayEqual_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -21229,7 +21229,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 164,\n\tName := 'assertFalse',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 164,\n\tName := 'assertFalse',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -21347,7 +21347,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 124,\n\tName := 'assertLessEqual_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 124,\n\tName := 'assertLessEqual_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -21475,7 +21475,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 153,\n\tName := 'assertArrayEqual_STRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 153,\n\tName := 'assertArrayEqual_STRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -21593,7 +21593,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 129,\n\tName := 'assertLessEqual_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 129,\n\tName := 'assertLessEqual_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -21721,7 +21721,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 140,\n\tName := 'assertArrayEqual_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 140,\n\tName := 'assertArrayEqual_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -21839,7 +21839,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 141,\n\tName := 'assertArrayEqual_DWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 141,\n\tName := 'assertArrayEqual_DWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -21957,7 +21957,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 143,\n\tName := 'assertArrayEqual_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 143,\n\tName := 'assertArrayEqual_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -22075,7 +22075,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 152,\n\tName := 'assertArrayEqual_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 152,\n\tName := 'assertArrayEqual_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -22193,7 +22193,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 131,\n\tName := 'assertLessEqual_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 131,\n\tName := 'assertLessEqual_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -22321,7 +22321,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 149,\n\tName := 'assertArrayEqual_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 149,\n\tName := 'assertArrayEqual_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -22439,7 +22439,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 128,\n\tName := 'assertLessEqual_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 128,\n\tName := 'assertLessEqual_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -22567,7 +22567,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 147,\n\tName := 'assertArrayEqual_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 147,\n\tName := 'assertArrayEqual_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -22685,7 +22685,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 148,\n\tName := 'assertArrayEqual_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 148,\n\tName := 'assertArrayEqual_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -22803,7 +22803,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 135,\n\tName := 'assertLessEqual_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 135,\n\tName := 'assertLessEqual_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -22931,7 +22931,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 150,\n\tName := 'assertArrayEqual_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 150,\n\tName := 'assertArrayEqual_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -23049,7 +23049,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 142,\n\tName := 'assertArrayEqual_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 142,\n\tName := 'assertArrayEqual_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -23167,7 +23167,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 136,\n\tName := 'assertLessEqual_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 136,\n\tName := 'assertLessEqual_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -23295,7 +23295,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 145,\n\tName := 'assertArrayEqual_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 145,\n\tName := 'assertArrayEqual_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -23413,7 +23413,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 138,\n\tName := 'assertArrayEqual_BOOL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 138,\n\tName := 'assertArrayEqual_BOOL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -23531,7 +23531,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 125,\n\tName := 'assertLessEqual_UDINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 125,\n\tName := 'assertLessEqual_UDINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_EXEC",
@@ -23659,7 +23659,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 132,\n\tName := 'assertLessEqual_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 132,\n\tName := 'assertLessEqual_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_EXEC",
@@ -23787,7 +23787,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 126,\n\tName := 'assertLessEqual_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 126,\n\tName := 'assertLessEqual_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -23915,7 +23915,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 127,\n\tName := 'assertLessEqual_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 127,\n\tName := 'assertLessEqual_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -24043,7 +24043,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 133,\n\tName := 'assertLessEqual_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 133,\n\tName := 'assertLessEqual_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_3_SETUP",
@@ -24171,7 +24171,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 134,\n\tName := 'assertLessEqual_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\nTEST_CASE_3_SETUP();\nTEST_CASE_3_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 134,\n\tName := 'assertLessEqual_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -24299,7 +24299,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 146,\n\tName := 'assertArrayEqual_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 146,\n\tName := 'assertArrayEqual_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -24417,7 +24417,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 139,\n\tName := 'assertArrayEqual_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 139,\n\tName := 'assertArrayEqual_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -24521,7 +24521,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 1,\n\tName := 'assertEqual_BYTE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 1,\n\tName := 'assertEqual_BYTE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -24625,7 +24625,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 23,\n\tName := 'assertEqual_TIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 23,\n\tName := 'assertEqual_TIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -24729,7 +24729,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 20,\n\tName := 'assertEqual_LDATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 20,\n\tName := 'assertEqual_LDATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -24833,7 +24833,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 2,\n\tName := 'assertEqual_WORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 2,\n\tName := 'assertEqual_WORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -24937,7 +24937,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 8,\n\tName := 'assertEqual_UINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 8,\n\tName := 'assertEqual_UINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -25041,7 +25041,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 4,\n\tName := 'assertEqual_LWORD',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 4,\n\tName := 'assertEqual_LWORD',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -25145,7 +25145,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 22,\n\tName := 'assertEqual_LDATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 22,\n\tName := 'assertEqual_LDATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -25249,7 +25249,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 14,\n\tName := 'assertEqual_LREAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 14,\n\tName := 'assertEqual_LREAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -25353,7 +25353,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 7,\n\tName := 'assertEqual_INT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 7,\n\tName := 'assertEqual_INT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -25457,7 +25457,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 16,\n\tName := 'assertEqual_WSTRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 16,\n\tName := 'assertEqual_WSTRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -25561,7 +25561,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 18,\n\tName := 'assertEqual_LTIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 18,\n\tName := 'assertEqual_LTIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -25665,7 +25665,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 12,\n\tName := 'assertEqual_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 12,\n\tName := 'assertEqual_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -25769,7 +25769,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 24,\n\tName := 'assertEqual_LTIME_OF_DAY',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 24,\n\tName := 'assertEqual_LTIME_OF_DAY',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_EXEC",
@@ -25873,7 +25873,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 5,\n\tName := 'assertEqual_SINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 5,\n\tName := 'assertEqual_SINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -25977,7 +25977,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 13,\n\tName := 'assertEqual_REAL',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 13,\n\tName := 'assertEqual_REAL',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -26081,7 +26081,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 19,\n\tName := 'assertEqual_DATE',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 19,\n\tName := 'assertEqual_DATE',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -26185,7 +26185,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 9,\n\tName := 'assertEqual_DINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 9,\n\tName := 'assertEqual_DINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -26289,7 +26289,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 15,\n\tName := 'assertEqual_STRING',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 15,\n\tName := 'assertEqual_STRING',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -26393,7 +26393,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 21,\n\tName := 'assertEqual_DATE_AND_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 21,\n\tName := 'assertEqual_DATE_AND_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_2_SETUP",
@@ -26497,7 +26497,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 17,\n\tName := 'assertEqual_TIME',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 17,\n\tName := 'assertEqual_TIME',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -26601,7 +26601,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 11,\n\tName := 'assertEqual_LINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 11,\n\tName := 'assertEqual_LINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_SETUP",
@@ -26705,7 +26705,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 61,\n\tName := 'assertGreater_ULINT',\n    RunTests := GVL.RunAll OR vRunAll,\n\tResetTests := GVL.ResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\nGVL.Results[testRunner.Id] := testRunner.Summary;",
+          "code": "(*Run the test cases*)\nTEST_CASE_1_SETUP();\nTEST_CASE_1_EXEC();\n\nTEST_CASE_2_SETUP();\nTEST_CASE_2_EXEC();\n\n(*Instantiate the test runner*)\ntestRunner(\n\tId := 61,\n\tName := 'assertGreater_ULINT',\n    RunTests := gRunAll OR vRunAll,\n\tResetTests := gResetAll OR vResetAll,\n\tTestCases:=vTestCases);\n\n(*Report the results to the collection global*)\ngResults[testRunner.Id] := testRunner.Summary;",
           "actions": [
             {
               "name": "TEST_CASE_1_EXEC",
@@ -26760,7 +26760,7 @@
               "attribute": ""
             }
           ],
-          "code": "testReporter(Results:=GVL.Results);",
+          "code": "testReporter(Results:=gResults);",
           "actions": [],
           "docStrings": [],
           "metrics": {
@@ -26781,7 +26781,35 @@
       "fcs": [],
       "class": [],
       "dts": [],
-      "vars": [],
+      "vars": [
+        {
+          "name": "VAR_GLOBAL",
+          "vars": [
+            {
+              "name": "gResults",
+              "type": "ARRAY[0..500] OF utTestCaseSummary",
+              "attribute": "",
+              "initialValue": "",
+              "description": "Place to save all the sumaries of each POU under test"
+            },
+            {
+              "name": "gRunAll",
+              "type": "BOOL",
+              "attribute": "",
+              "initialValue": "",
+              "description": "Issues a RunTests command to all TestSuites"
+            },
+            {
+              "name": "gResetAll",
+              "type": "BOOL",
+              "attribute": "",
+              "initialValue": "",
+              "description": "Issues a ResetTests command to all TestSuites"
+            }
+          ],
+          "attribute": ""
+        }
+      ],
       "metrics": {
         "size": 12343,
         "varCount": 1455,
