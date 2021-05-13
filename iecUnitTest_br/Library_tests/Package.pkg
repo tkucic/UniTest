@@ -119,5 +119,6 @@
     <Object Type="Program" Language="IEC">test_assertEqual_DATE_AND_TIME</Object>
     <Object Type="Program" Language="IEC">test_assertEqual_TIME</Object>
     <Object Type="Program" Language="IEC">main</Object>
+    <Object Type="File" Description="Package variables">PackageVars.var</Object>
   </Objects>
 </Package>

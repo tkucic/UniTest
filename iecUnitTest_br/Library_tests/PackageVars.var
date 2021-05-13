@@ -1,0 +1,5 @@
+VAR_GLOBAL 
+    gResults : ARRAY[0..500] OF utTestCaseSummary; (*Place to save all the sumaries of each POU under test*)
+    gRunAll : BOOL; (*Issues a RunTests command to all TestSuites*)
+    gResetAll : BOOL; (*Issues a ResetTests command to all TestSuites*)
+END_VAR

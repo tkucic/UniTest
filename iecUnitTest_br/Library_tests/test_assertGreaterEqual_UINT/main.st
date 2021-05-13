@@ -14,10 +14,10 @@ PROGRAM _CYCLIC
     testRunner(
     	Id := 79,
     	Name := 'assertGreaterEqual_UINT',
-        RunTests := GVL.RunAll OR vRunAll,
-    	ResetTests := GVL.ResetAll OR vResetAll,
+        RunTests := gRunAll OR vRunAll,
+    	ResetTests := gResetAll OR vResetAll,
     	TestCases:=vTestCases);
 
     (*Report the results to the collection global*)
-    GVL.Results[testRunner.Id] := testRunner.Summary;
+    gResults[testRunner.Id] := testRunner.Summary;
 END_PROGRAM
