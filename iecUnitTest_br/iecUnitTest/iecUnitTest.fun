@@ -63,12 +63,6 @@ FUNCTION assertEqual_DWORD : BOOL (* Returns TRUE if act = xp. *)(* https://gith
         xp : DWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertEqual_LWORD : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertEqual_SINT : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_SINT.md *)
     VAR_INPUT 
         act : SINT; (*Variable to test*)
@@ -105,18 +99,6 @@ FUNCTION assertEqual_UDINT : BOOL (* Returns TRUE if act = xp. *)(* https://gith
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertEqual_LINT : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertEqual_ULINT : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertEqual_REAL : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -147,22 +129,10 @@ FUNCTION assertEqual_TIME : BOOL (* Returns TRUE if act = xp. *)(* https://githu
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertEqual_LTIME : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertEqual_DATE : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertEqual_LDATE : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_DATE_AND_TIME.md *)
@@ -171,22 +141,10 @@ FUNCTION assertEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act = xp. *)(* http
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertEqual_LDATE_AND_TIME : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertEqual_TIME_OF_DAY : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertEqual_LTIME_OF_DAY : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertEqual_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertNotEqual_BOOL : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_BOOL.md *)
@@ -211,12 +169,6 @@ FUNCTION assertNotEqual_DWORD : BOOL (* Returns TRUE if act <> xp. *)(* https://
     VAR_INPUT 
         act : DWORD; (*Variable to test*)
         xp : DWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertNotEqual_LWORD : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertNotEqual_SINT : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_SINT.md *)
@@ -255,18 +207,6 @@ FUNCTION assertNotEqual_UDINT : BOOL (* Returns TRUE if act <> xp. *)(* https://
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertNotEqual_LINT : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertNotEqual_ULINT : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertNotEqual_REAL : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -297,22 +237,10 @@ FUNCTION assertNotEqual_TIME : BOOL (* Returns TRUE if act <> xp. *)(* https://g
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertNotEqual_LTIME : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertNotEqual_DATE : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertNotEqual_LDATE : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertNotEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_DATE_AND_TIME.md *)
@@ -321,22 +249,10 @@ FUNCTION assertNotEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act <> xp. *)(* 
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertNotEqual_LDATE_AND_TIME : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertNotEqual_TIME_OF_DAY : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertNotEqual_LTIME_OF_DAY : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreater_BYTE : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_BYTE.md *)
@@ -355,12 +271,6 @@ FUNCTION assertGreater_DWORD : BOOL (* Returns TRUE if act > xp. *)(* https://gi
     VAR_INPUT 
         act : DWORD; (*Variable to test*)
         xp : DWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreater_LWORD : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreater_SINT : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_SINT.md *)
@@ -399,18 +309,6 @@ FUNCTION assertGreater_UDINT : BOOL (* Returns TRUE if act > xp. *)(* https://gi
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreater_LINT : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreater_ULINT : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreater_REAL : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -429,22 +327,10 @@ FUNCTION assertGreater_TIME : BOOL (* Returns TRUE if act > xp. *)(* https://git
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreater_LTIME : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreater_DATE : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreater_LDATE : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreater_DATE_AND_TIME : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_DATE_AND_TIME.md *)
@@ -453,22 +339,10 @@ FUNCTION assertGreater_DATE_AND_TIME : BOOL (* Returns TRUE if act > xp. *)(* ht
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreater_LDATE_AND_TIME : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreater_TIME_OF_DAY : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreater_LTIME_OF_DAY : BOOL (* Returns TRUE if act > xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreaterEqual_BYTE : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_BYTE.md *)
@@ -487,12 +361,6 @@ FUNCTION assertGreaterEqual_DWORD : BOOL (* Returns TRUE if act >= xp. *)(* http
     VAR_INPUT 
         act : DWORD; (*Variable to test*)
         xp : DWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreaterEqual_LWORD : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreaterEqual_SINT : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_SINT.md *)
@@ -531,18 +399,6 @@ FUNCTION assertGreaterEqual_UDINT : BOOL (* Returns TRUE if act >= xp. *)(* http
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreaterEqual_LINT : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreaterEqual_ULINT : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreaterEqual_REAL : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -561,22 +417,10 @@ FUNCTION assertGreaterEqual_TIME : BOOL (* Returns TRUE if act >= xp. *)(* https
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreaterEqual_LTIME : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreaterEqual_DATE : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreaterEqual_LDATE : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertGreaterEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_DATE_AND_TIME.md *)
@@ -585,22 +429,10 @@ FUNCTION assertGreaterEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act >= xp. *
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertGreaterEqual_LDATE_AND_TIME : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertGreaterEqual_TIME_OF_DAY : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertGreaterEqual_LTIME_OF_DAY : BOOL (* Returns TRUE if act >= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLess_BYTE : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_BYTE.md *)
@@ -619,12 +451,6 @@ FUNCTION assertLess_DWORD : BOOL (* Returns TRUE if act < xp. *)(* https://githu
     VAR_INPUT 
         act : DWORD; (*Variable to test*)
         xp : DWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLess_LWORD : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLess_SINT : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_SINT.md *)
@@ -663,18 +489,6 @@ FUNCTION assertLess_UDINT : BOOL (* Returns TRUE if act < xp. *)(* https://githu
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLess_LINT : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLess_ULINT : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLess_REAL : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -693,22 +507,10 @@ FUNCTION assertLess_TIME : BOOL (* Returns TRUE if act < xp. *)(* https://github
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLess_LTIME : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLess_DATE : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLess_LDATE : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLess_DATE_AND_TIME : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_DATE_AND_TIME.md *)
@@ -717,22 +519,10 @@ FUNCTION assertLess_DATE_AND_TIME : BOOL (* Returns TRUE if act < xp. *)(* https
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLess_LDATE_AND_TIME : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLess_TIME_OF_DAY : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLess_LTIME_OF_DAY : BOOL (* Returns TRUE if act < xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLessEqual_BYTE : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_BYTE.md *)
@@ -751,12 +541,6 @@ FUNCTION assertLessEqual_DWORD : BOOL (* Returns TRUE if act <= xp. *)(* https:/
     VAR_INPUT 
         act : DWORD; (*Variable to test*)
         xp : DWORD; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLessEqual_LWORD : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LWORD.md *)
-    VAR_INPUT 
-        act : LWORD; (*Variable to test*)
-        xp : LWORD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLessEqual_SINT : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_SINT.md *)
@@ -795,18 +579,6 @@ FUNCTION assertLessEqual_UDINT : BOOL (* Returns TRUE if act <= xp. *)(* https:/
         xp : UDINT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLessEqual_LINT : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LINT.md *)
-    VAR_INPUT 
-        act : LINT; (*Variable to test*)
-        xp : LINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLessEqual_ULINT : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_ULINT.md *)
-    VAR_INPUT 
-        act : ULINT; (*Variable to test*)
-        xp : ULINT; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLessEqual_REAL : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_REAL.md *)
     VAR_INPUT 
         act : REAL; (*Variable to test*)
@@ -825,22 +597,10 @@ FUNCTION assertLessEqual_TIME : BOOL (* Returns TRUE if act <= xp. *)(* https://
         xp : TIME; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLessEqual_LTIME : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LTIME.md *)
-    VAR_INPUT 
-        act : LTIME; (*Variable to test*)
-        xp : LTIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLessEqual_DATE : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_DATE.md *)
     VAR_INPUT 
         act : DATE; (*Variable to test*)
         xp : DATE; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertLessEqual_LDATE : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LDATE.md *)
-    VAR_INPUT 
-        act : LDATE; (*Variable to test*)
-        xp : LDATE; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertLessEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_DATE_AND_TIME.md *)
@@ -849,347 +609,244 @@ FUNCTION assertLessEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act <= xp. *)(*
         xp : DT; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLessEqual_LDATE_AND_TIME : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : LDATE_AND_TIME; (*Variable to test*)
-        xp : LDATE_AND_TIME; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertLessEqual_TIME_OF_DAY : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_TIME_OF_DAY.md *)
     VAR_INPUT 
         act : TOD; (*Variable to test*)
         xp : TOD; (*Variable to test against*)
     END_VAR
 END_FUNCTION
-FUNCTION assertLessEqual_LTIME_OF_DAY : BOOL (* Returns TRUE if act <= xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : LTIME_OF_DAY; (*Variable to test*)
-        xp : LTIME_OF_DAY; (*Variable to test against*)
-    END_VAR
-END_FUNCTION
 FUNCTION assertArrayEqual_BOOL : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_BOOL.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF BOOL; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF BOOL; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF BOOL; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF BOOL; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO BOOL; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO BOOL; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO BOOL; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO BOOL; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_BYTE : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_BYTE.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF BYTE; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF BYTE; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF BYTE; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF BYTE; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO BYTE; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO BYTE; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO BYTE; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO BYTE; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_WORD : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_WORD.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF WORD; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF WORD; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF WORD; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF WORD; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO WORD; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO WORD; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO WORD; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO WORD; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_DWORD : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_DWORD.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF DWORD; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF DWORD; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF DWORD; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF DWORD; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO DWORD; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO DWORD; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LWORD : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LWORD.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LWORD; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LWORD; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LWORD; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LWORD; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO DWORD; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO DWORD; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_SINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_SINT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF SINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF SINT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF SINT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF SINT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO SINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO SINT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO SINT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO SINT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_USINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_USINT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF USINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF USINT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF USINT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF USINT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO USINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO USINT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO USINT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO USINT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_INT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_INT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF INT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF INT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF INT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF INT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO INT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO INT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO INT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO INT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_UINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_UINT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF UINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF UINT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF UINT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF UINT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO UINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO UINT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO UINT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO UINT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_DINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_DINT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF DINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF DINT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF DINT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF DINT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO DINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO DINT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO DINT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO DINT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_UDINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_UDINT.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF UDINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF UDINT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF UDINT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF UDINT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO UDINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO UDINT; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LINT.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LINT; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LINT; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_ULINT : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_ULINT.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF ULINT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF ULINT; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO ULINT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO ULINT; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO UDINT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO UDINT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_REAL : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_REAL.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF REAL; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF REAL; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF REAL; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF REAL; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO REAL; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO REAL; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO REAL; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO REAL; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_LREAL : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LREAL.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LREAL; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LREAL; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF LREAL; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF LREAL; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LREAL; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LREAL; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO LREAL; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO LREAL; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_STRING : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_STRING.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF STRING; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF STRING; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF STRING; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF STRING; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO STRING; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO STRING; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO STRING; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO STRING; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_WSTRING : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_WSTRING.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF wstring; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF wstring; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF wstring; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF wstring; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO wstring; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO wstring; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO wstring; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO wstring; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_TIME : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_TIME.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF TIME; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF TIME; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF TIME; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF TIME; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO TIME; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO TIME; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LTIME : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LTIME.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LTIME; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LTIME; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LTIME; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LTIME; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO TIME; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO TIME; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_DATE : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_DATE.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF DATE; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF DATE; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF DATE; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF DATE; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO DATE; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO DATE; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LDATE : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LDATE.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LDATE; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LDATE; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LDATE; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LDATE; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO DATE; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO DATE; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_DATE_AND_TIME : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_DATE_AND_TIME.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF DT; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF DT; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF DT; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF DT; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO DT; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO DT; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LDATE_AND_TIME : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LDATE_AND_TIME.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LDATE_AND_TIME; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LDATE_AND_TIME; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LDATE_AND_TIME; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LDATE_AND_TIME; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO DT; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO DT; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_TIME_OF_DAY : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_TIME_OF_DAY.md *)
     VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF TOD; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF TOD; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF TOD; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF TOD; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO TOD; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO TOD; (*Pointer to the element of the array xp*)
-    END_VAR
-END_FUNCTION
-FUNCTION assertArrayEqual_LTIME_OF_DAY : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_LTIME_OF_DAY.md *)
-    VAR_INPUT 
-        act : POINTER TO ARRAY[0..32000] OF LTIME_OF_DAY; (*Variable to test*)
-        xp : POINTER TO ARRAY[0..32000] OF LTIME_OF_DAY; (*Variable to test against*)
-        size : UINT; (*Size of the array (ADR(act))*)
-    END_VAR
-    VAR 
-        i : UINT; (*Iterator variable*)
-        vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : POINTER TO LTIME_OF_DAY; (*Pointer to the element of the array act*)
-        pt2 : POINTER TO LTIME_OF_DAY; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO TOD; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO TOD; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertTrue : BOOL (* Returns TRUE if condition is TRUE *)(* https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertTrue.md *)
