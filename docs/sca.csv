@@ -1,8 +1,8 @@
 Type;Project;Namespace;Object;Child;Sev;Rule;Msg
-Data type;Iec UniTest;iecUniTest;utTestCase;;Quality;Data type unused;utTestCase is possibly not used in the project
-Data type component;Iec UniTest;iecUniTest;utTestCaseStates;ut_SETUP;Quality;Missing description;Component ut_SETUP is missing description
-Data type component;Iec UniTest;iecUniTest;utTestCaseStates;ut_RUNNING;Quality;Missing description;Component ut_RUNNING is missing description
-Data type component;Iec UniTest;iecUniTest;utTestCaseStates;ut_PASSED;Quality;Missing description;Component ut_PASSED is missing description
-Data type component;Iec UniTest;iecUniTest;utTestCaseStates;ut_FAILED;Quality;Missing description;Component ut_FAILED is missing description
-Data type component;Iec UniTest;iecUniTest;utErrors;ut_NO_ERROR;Quality;Missing description;Component ut_NO_ERROR is missing description
-Data type component;Iec UniTest;iecUniTest;utErrors;ut_NO_TEST_CASES_DEFINED;Quality;Missing description;Component ut_NO_TEST_CASES_DEFINED is missing description
+Data type;UniTest;UniTest;utTestCase;;Quality;Data type unused;utTestCase is possibly not used in the project
+Data type component;UniTest;UniTest;utTestCaseStates;ut_SETUP;Quality;Missing description;Component ut_SETUP is missing description
+Data type component;UniTest;UniTest;utTestCaseStates;ut_RUNNING;Quality;Missing description;Component ut_RUNNING is missing description
+Data type component;UniTest;UniTest;utTestCaseStates;ut_PASSED;Quality;Missing description;Component ut_PASSED is missing description
+Data type component;UniTest;UniTest;utTestCaseStates;ut_FAILED;Quality;Missing description;Component ut_FAILED is missing description
+Data type component;UniTest;UniTest;utErrors;ut_NO_ERROR;Quality;Missing description;Component ut_NO_ERROR is missing description
+Data type component;UniTest;UniTest;utErrors;ut_NO_TEST_CASES_DEFINED;Quality;Missing description;Component ut_NO_TEST_CASES_DEFINED is missing description
