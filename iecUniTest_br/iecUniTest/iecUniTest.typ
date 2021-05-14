@@ -10,8 +10,8 @@ TYPE
         ut_SETUP := 0, (**)
         ut_RUNNING := 1, (**)
         ut_PASSED := 2, (**)
-        ut_FAILED := 3, (**)
-    )        
+        ut_FAILED := 3 (**)
+    );        
     utTestCaseSummary :    STRUCT
         Id : UINT; (*Id of the test object. Must be unique number*)
         Name : STRING[250]; (*Name of the test object*)
@@ -25,6 +25,6 @@ TYPE
     utErrors :
     (
         ut_NO_ERROR := 0, (**)
-        ut_NO_TEST_CASES_DEFINED := 100, (**)
-    )        
+        ut_NO_TEST_CASES_DEFINED := 100 (**)
+    );        
 END_TYPE
