@@ -926,14 +926,14 @@
               "vars": [
                 {
                   "name": "act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test"
                 },
                 {
                   "name": "xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test against"
@@ -1951,14 +1951,14 @@
               "vars": [
                 {
                   "name": "act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test"
                 },
                 {
                   "name": "xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test against"
@@ -7240,14 +7240,14 @@
               "vars": [
                 {
                   "name": "act",
-                  "type": "POINTER TO ARRAY[0..32000] OF wstring",
+                  "type": "POINTER TO ARRAY[0..32000] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test"
                 },
                 {
                   "name": "xp",
-                  "type": "POINTER TO ARRAY[0..32000] OF wstring",
+                  "type": "POINTER TO ARRAY[0..32000] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Variable to test against"
@@ -7281,14 +7281,14 @@
                 },
                 {
                   "name": "pt1",
-                  "type": "POINTER TO wstring",
+                  "type": "POINTER TO WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Pointer to the element of the array act"
                 },
                 {
                   "name": "pt2",
-                  "type": "POINTER TO wstring",
+                  "type": "POINTER TO WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Pointer to the element of the array xp"
@@ -13027,28 +13027,28 @@
                 },
                 {
                   "name": "vTestCase1_act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 1 of test case 1"
                 },
                 {
                   "name": "vTestCase1_xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 2 of test case 1"
                 },
                 {
                   "name": "vTestCase2_act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 1 of test case 2"
                 },
                 {
                   "name": "vTestCase2_xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 2 of test case 2"
@@ -20179,28 +20179,28 @@
                 },
                 {
                   "name": "vTestCase1_act",
-                  "type": "ARRAY[0..70] OF wstring",
+                  "type": "ARRAY[0..70] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Array data 1 of test case 1"
                 },
                 {
                   "name": "vTestCase1_xp",
-                  "type": "ARRAY[0..70] OF wstring",
+                  "type": "ARRAY[0..70] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Array data 2 of test case 1"
                 },
                 {
                   "name": "vTestCase2_act",
-                  "type": "ARRAY[0..70] OF wstring",
+                  "type": "ARRAY[0..70] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Array data 3 of test case 2"
                 },
                 {
                   "name": "vTestCase2_xp",
-                  "type": "ARRAY[0..70] OF wstring",
+                  "type": "ARRAY[0..70] OF WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Array data 4 of test case 2"
@@ -25427,28 +25427,28 @@
                 },
                 {
                   "name": "vTestCase1_act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 1 of test case 1"
                 },
                 {
                   "name": "vTestCase1_xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 2 of test case 1"
                 },
                 {
                   "name": "vTestCase2_act",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 1 of test case 2"
                 },
                 {
                   "name": "vTestCase2_xp",
-                  "type": "wstring",
+                  "type": "WSTRING",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Test data 2 of test case 2"
