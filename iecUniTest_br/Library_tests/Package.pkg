@@ -2,6 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
+    <Object Type="File" Description="Package variables">PackageVars.var</Object>
     <Object Type="Program" Language="IEC">test_assertNotEqual_BOOL</Object>
     <Object Type="Program" Language="IEC">test_assertNotEqual_INT</Object>
     <Object Type="Program" Language="IEC">test_assertNotEqual_DATE_AND_TIME</Object>
@@ -119,6 +120,5 @@
     <Object Type="Program" Language="IEC">test_assertEqual_DATE_AND_TIME</Object>
     <Object Type="Program" Language="IEC">test_assertEqual_TIME</Object>
     <Object Type="Program" Language="IEC">main</Object>
-    <Object Type="File" Description="Package variables">PackageVars.var</Object>
   </Objects>
 </Package>
