@@ -1,5 +1,5 @@
 ACTION TEST_CASE_1_SETUP :
-    IF vTestCases[0].state = utTestCaseStates.ut_SETUP THEN
+    IF vTestCases[0].state = ut_SETUP THEN
     	(*Setup the test case information*)
     	vTestCases[0].id := 1;
     	vTestCases[0].desc[0] := 'RETURNS TRUE WHEN PARAMETER ACT LESS THAN XP';
@@ -12,19 +12,19 @@ ACTION TEST_CASE_1_SETUP :
     END_IF
 END_ACTION
 ACTION TEST_CASE_1_EXEC :
-    IF vTestCases[0].state = utTestCaseStates.ut_RUNNING THEN
+    IF vTestCases[0].state = ut_RUNNING THEN
     	(*Run the test case*)
     	IF assertLess_USINT(vTestCase1_act, vTestCase1_xp) THEN
-    		vTestCases[0].state := utTestCaseStates.ut_PASSED;
+    		vTestCases[0].state := ut_PASSED;
     		vTestCases[0].msg := 'Parameter act was less than xp and function returned TRUE -> PASS';
     	ELSE
-    		vTestCases[0].state := utTestCaseStates.ut_FAILED;
+    		vTestCases[0].state := ut_FAILED;
     		vTestCases[0].msg := 'Parameter act was less than xp and function returned FALSE -> FAIL';
     	END_IF
     END_IF
 END_ACTION
 ACTION TEST_CASE_2_SETUP :
-    IF vTestCases[1].state = utTestCaseStates.ut_SETUP THEN
+    IF vTestCases[1].state = ut_SETUP THEN
     	(*Setup the test case information*)
     	vTestCases[1].id := 2;
         vTestCases[1].desc[0] := 'RETURNS FALSE WHEN PARAMETER ACT GREATER THAN XP';
@@ -37,13 +37,13 @@ ACTION TEST_CASE_2_SETUP :
     END_IF
 END_ACTION
 ACTION TEST_CASE_2_EXEC :
-    IF vTestCases[1].state = utTestCaseStates.ut_RUNNING THEN
+    IF vTestCases[1].state = ut_RUNNING THEN
     	(*Run the test case*)
     	IF NOT assertLess_USINT(vTestCase2_act, vTestCase2_xp) THEN
-    		vTestCases[1].state := utTestCaseStates.ut_PASSED;
+    		vTestCases[1].state := ut_PASSED;
     		vTestCases[1].msg := 'Parameter act was greater than xp and function returned FALSE -> PASS';
     	ELSE
-    		vTestCases[1].state := utTestCaseStates.ut_FAILED;
+    		vTestCases[1].state := ut_FAILED;
     		vTestCases[1].msg := 'Parameter act was greater than xp and function returned TRUE -> FAIL';
     	END_IF
     END_IF

@@ -27,7 +27,7 @@ FUNCTION_BLOCK utTestReporter
     		IF Results[i].TestsRunning THEN
     			TestsInProgress := TRUE;
     		END_IF
-    		IF Results[i].Error <> utErrors.ut_NO_ERROR THEN
+    		IF Results[i].Error <> ut_NO_ERROR THEN
     			Error := TRUE;
     		END_IF
     	END_IF
