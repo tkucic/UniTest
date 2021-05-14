@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-10T20:20:27.8904239" />
-  <contentHeader name="Iec Unit Test" version="0.1" modificationDateTime="2021-05-10T20:20:18.2154107" organization="TK Automation" author="Toni Kucic">
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-14T17:08:53.2791568" />
+  <contentHeader name="Iec UniTest" version="0.1" modificationDateTime="2021-05-14T17:08:39.4737008" organization="TK Automation" author="Toni Kucic">
     <Comment>Library written in pure IEC 61131-3 Structured text that can be used for unit testing of any PLC POU. This library has arisen from the need of having a manufacturer and IDE independent unit test framework that is easily portable to other platform as the community requires. There are good unit frameworks existing for TwinCat, Codesys, B&amp;R and many more platforms but none of them quite solve the extreme cases.</Comment>
     <coordinateInfo>
       <fbd>
@@ -21,8 +21,8 @@
           <property name="Company" type="string">TK Automation</property>
           <property name="CompiledLibraryCompatibilityVersion" type="string">CODESYS V3.5 SP16</property>
           <property name="Description" type="string">Library written in pure IEC 61131-3 Structured text that can be used for unit testing of any PLC POU. This library has arisen from the need of having a manufacturer and IDE independent unit test framework that is easily portable to other platform as the community requires. There are good unit frameworks existing for TwinCat, Codesys, B&amp;R and many more platforms but none of them quite solve the extreme cases.</property>
-          <property name="Project" type="string">iecUnitTest</property>
-          <property name="Title" type="string">Iec Unit Test</property>
+          <property name="Project" type="string">iecUniTest</property>
+          <property name="Title" type="string">Iec UniTest</property>
           <property name="Version" type="version">0.1</property>
         </ProjectInformation>
       </data>

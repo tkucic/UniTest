@@ -1,10 +1,10 @@
-# IEC UNIT TEST
+# IEC UNI TEST (UNIVERSAL TEST LIBARY)
 
 Library written in pure IEC 61131-3 Structured text that can be used for unit testing of any PLC POU. This library has arisen from the need of having a manufacturer and IDE independent unit test framework that is easily portable to other platforms as the community requires.
 
 ## Current status
 
-Check detailed info [here](https://github.com/tkucic/iecUnitTest/projects) in the projects tab.
+Check detailed info [here](https://github.com/tkucic/iecUniTest/projects) in the projects tab.
 
 ### Done
 
