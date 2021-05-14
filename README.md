@@ -16,6 +16,10 @@ The platform agnostic library, further known as the Kernel, is provided in the J
 
 ![DIAG](diag.png)
 
+### Why you should use it
+
+There are many frameworks for unit testing in the world but in the Industrial automation world there are virtually none. Certain PLC orientated UnitTest frameworks do exists but they are often designed for specific IDEs. Those frameworks are then incompatible with other platforms. If your platform doesn't have any unit testing frameworks developed, here is where this library tries to help.
+
 ## Documentation
 
 Each assert function has a software description accessible by browsing this repositories [docs folder](docs/index.md). The documentation link is also included in the Kernel and in the code itself.
@@ -23,7 +27,7 @@ Each assert function has a software description accessible by browsing this repo
 ## Usage of the unit test framework
 
 The usage of the library can be checked from the included programs in the Library_tests namespace which can be imported into the target system.
-The library end user can implement the assert functions into its own solutions.
+The library end user can implement the assert functions into its own solutions. As the library and the test cases are written in structured text the test cases are easily programmatically created. For example, the test cases for all the library assert functions were written by a script.
 
 ### General example of POU under test case
 
