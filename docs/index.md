@@ -1,12 +1,12 @@
-# Iec Unit Test | [MAIN](index.md) | [NAMESPACES](docs/ns/nsList.md) | [METRICS](docs/metrics.md)  
+# Iec UniTest | [MAIN](index.md) | [NAMESPACES](docs/ns/nsList.md) | [METRICS](docs/metrics.md)  
 
-## Iec Unit Test, 0.1 project documentation
+## Iec UniTest, 0.1 project documentation
 
 | PROJECT | INFORMATION |
 | ---- | ---- |
 | Company name            | TK Automation |  
-| Company URL             | [None](None) |  
-| Project name            | Iec Unit Test |  
+| Company URL             | [https://github.com/tkucic](https://github.com/tkucic) |  
+| Project name            | Iec UniTest |  
 | Project version         | 0.1 |  
 | Project URL             | []() |  
 | Content description     | Library written in pure IEC 61131-3 Structured text that can be used for unit testing of any PLC POU. This library has arisen from the need of having a manufacturer and IDE independent unit test framework that is easily portable to other platform as the community requires. There are good unit frameworks existing for TwinCat, Codesys, B&R and many more platforms but none of them quite solve the extreme cases. |  

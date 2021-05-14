@@ -1,6 +1,6 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS]  
 
-## Documentation for namespace Global  
+## Documentation for namespace iecUniTest  
 
 ## Namespace index  
 

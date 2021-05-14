@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for Function assertEqual_WSTRING (BOOL)  
 
@@ -6,8 +6,8 @@
 
 | Direction | Name | Type | Attribute | Initial Value | Documentation |
 | --------- | ---- | ---- | --------- | ------------- | ------------- |
-| VAR_INPUT | act | wstring |  |  | Variable to test |  
-| VAR_INPUT | xp | wstring |  |  | Variable to test against |  
+| VAR_INPUT | act | WSTRING |  |  | Variable to test |  
+| VAR_INPUT | xp | WSTRING |  |  | Variable to test against |  
 
 
 ## Metrics  

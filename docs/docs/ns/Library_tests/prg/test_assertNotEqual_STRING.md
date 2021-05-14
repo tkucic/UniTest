@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for Program test_assertNotEqual_STRING  
 
@@ -10,10 +10,10 @@
 | VAR | testRunner | utTestSuite |  |  | Test Suite fb instance to run the tests |  
 | VAR | vRunAll | BOOL |  |  | Manual command to run all tests for this POU |  
 | VAR | vResetAll | BOOL |  |  | Manual command to reset all tests for this POU |  
-| VAR | vTestCase1_act | STRING[None] |  |  | Test data 1 of test case 1 |  
-| VAR | vTestCase1_xp | STRING[None] |  |  | Test data 2 of test case 1 |  
-| VAR | vTestCase2_act | STRING[None] |  |  | Test data 1 of test case 2 |  
-| VAR | vTestCase2_xp | STRING[None] |  |  | Test data 2 of test case 2 |  
+| VAR | vTestCase1_act | STRING |  |  | Test data 1 of test case 1 |  
+| VAR | vTestCase1_xp | STRING |  |  | Test data 2 of test case 1 |  
+| VAR | vTestCase2_act | STRING |  |  | Test data 1 of test case 2 |  
+| VAR | vTestCase2_xp | STRING |  |  | Test data 2 of test case 2 |  
 
 
 ## Metrics  

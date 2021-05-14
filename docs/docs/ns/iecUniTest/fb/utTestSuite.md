@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for Function block utTestSuite  
 
@@ -9,7 +9,7 @@
 | VAR_INPUT | Id | UINT |  |  | Id of the test object. Must be unique number |  
 | VAR_INPUT | Name | STRING[250] |  |  | Name of the test object |  
 | VAR_INPUT | RunTests | BOOL |  |  | Starts all tests that are in setup state. Sets state to running. |  
-| VAR_INPUT | ResetTests | BOOL |  |  | Sets state to setup on test cases that are PASSED or FAILED. |  
+| VAR_INPUT | ResetTests | BOOL |  |  | Sets state to setup on test cases that are ut_PASSED or ut_FAILED. |  
 | VAR_IN_OUT | TestCases | ARRAY[0..20] OF utTestCase |  |  | Array of test case definition |  
 | VAR_OUTPUT | Summary | utTestCaseSummary |  |  | Summary of the test results |  
 | VAR | i | UINT |  |  | Iterator variable |  

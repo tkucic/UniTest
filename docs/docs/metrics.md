@@ -1,10 +1,10 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS]  
 
 ## Project metrics  
 
 | Namespace | Data types | Program | Function Block | Function | Class | Lines of code | Maintainable size |
 | --------- | ---------- | ------- | -------------- | -------- | ----- | ------------- | ----------------- |
-| Global | 4 | 0 | 2 | 165 | 0 | 689 | 1545 |  
+| iecUniTest | 4 | 0 | 2 | 165 | 0 | 689 | 1545 |  
 | Library_tests | 0 | 166 | 0 | 0 | 0 | 10888 | 12343 |  
 | __Total__ | __4__ | __166__ | __2__ | __165__ | __0__ | __11577__ | __13888__ |  
 

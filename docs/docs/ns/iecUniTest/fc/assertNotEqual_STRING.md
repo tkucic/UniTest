@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for Function assertNotEqual_STRING (BOOL)  
 
@@ -6,8 +6,8 @@
 
 | Direction | Name | Type | Attribute | Initial Value | Documentation |
 | --------- | ---- | ---- | --------- | ------------- | ------------- |
-| VAR_INPUT | act | STRING[None] |  |  | Variable to test |  
-| VAR_INPUT | xp | STRING[None] |  |  | Variable to test against |  
+| VAR_INPUT | act | STRING |  |  | Variable to test |  
+| VAR_INPUT | xp | STRING |  |  | Variable to test against |  
 
 
 ## Metrics  

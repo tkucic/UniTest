@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for Function assertArrayEqual_STRING (BOOL)  
 
@@ -6,13 +6,13 @@
 
 | Direction | Name | Type | Attribute | Initial Value | Documentation |
 | --------- | ---- | ---- | --------- | ------------- | ------------- |
-| VAR_INPUT | act | POINTER TO ARRAY[0..32000] OF STRING[None] |  |  | Variable to test |  
-| VAR_INPUT | xp | POINTER TO ARRAY[0..32000] OF STRING[None] |  |  | Variable to test against |  
+| VAR_INPUT | act | POINTER TO ARRAY[0..32000] OF STRING |  |  | Variable to test |  
+| VAR_INPUT | xp | POINTER TO ARRAY[0..32000] OF STRING |  |  | Variable to test against |  
 | VAR_INPUT | size | UINT |  |  | Size of the array (ADR(act)) |  
 | VAR | i | UINT |  |  | Iterator variable |  
 | VAR | vStop | UINT |  |  | Size of the array / End of iteration |  
-| VAR | pt1 | POINTER TO STRING[None] |  |  | Pointer to the element of the array act |  
-| VAR | pt2 | POINTER TO STRING[None] |  |  | Pointer to the element of the array xp |  
+| VAR | pt1 | POINTER TO STRING |  |  | Pointer to the element of the array act |  
+| VAR | pt2 | POINTER TO STRING |  |  | Pointer to the element of the array xp |  
 
 
 ## Metrics  

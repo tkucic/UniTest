@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for enum utErrors  
 
@@ -6,8 +6,8 @@
 
 | Name | Type | Attribute | Initial Value | Documentation |
 | ---- | ---- | --------- | ------------- | ------------- |
-|NO_ERROR|enum||0||  
-|NO_TEST_CASES_DEFINED|enum||100||  
+|ut_NO_ERROR|enum||0||  
+|ut_NO_TEST_CASES_DEFINED|enum||100||  
 
 ## Metrics  
 

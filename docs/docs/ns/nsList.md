@@ -1,8 +1,8 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS]  
 
 ## Namespaces  
 
-- [Global](Global/nsMain.md)  
+- [iecUniTest](iecUniTest/nsMain.md)  
 - [Library_tests](Library_tests/nsMain.md)  
 
 ---

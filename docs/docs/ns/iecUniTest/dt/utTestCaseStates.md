@@ -1,4 +1,4 @@
-# Iec Unit Test | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
+# Iec UniTest | [MAIN] | [NAMESPACES] | [METRICS] | [BACK]  
 
 ## Documentation for enum utTestCaseStates  
 
@@ -6,10 +6,10 @@
 
 | Name | Type | Attribute | Initial Value | Documentation |
 | ---- | ---- | --------- | ------------- | ------------- |
-|SETUP|enum||0||  
-|RUNNING|enum||1||  
-|PASSED|enum||2||  
-|FAILED|enum||3||  
+|ut_SETUP|enum||0||  
+|ut_RUNNING|enum||1||  
+|ut_PASSED|enum||2||  
+|ut_FAILED|enum||3||  
 
 ## Metrics  
 
