@@ -119,8 +119,8 @@ FUNCTION assertEqual_STRING : BOOL (* Returns TRUE if act = xp. *)(* https://git
 END_FUNCTION
 FUNCTION assertEqual_WSTRING : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertEqual_WSTRING.md *)
     VAR_INPUT 
-        act : wstring; (*Variable to test*)
-        xp : wstring; (*Variable to test against*)
+        act : WSTRING; (*Variable to test*)
+        xp : WSTRING; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertEqual_TIME : BOOL (* Returns TRUE if act = xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertEqual_TIME.md *)
@@ -227,8 +227,8 @@ FUNCTION assertNotEqual_STRING : BOOL (* Returns TRUE if act <> xp. *)(* https:/
 END_FUNCTION
 FUNCTION assertNotEqual_WSTRING : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertNotEqual_WSTRING.md *)
     VAR_INPUT 
-        act : wstring; (*Variable to test*)
-        xp : wstring; (*Variable to test against*)
+        act : WSTRING; (*Variable to test*)
+        xp : WSTRING; (*Variable to test against*)
     END_VAR
 END_FUNCTION
 FUNCTION assertNotEqual_TIME : BOOL (* Returns TRUE if act <> xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertNotEqual_TIME.md *)
@@ -786,15 +786,15 @@ FUNCTION assertArrayEqual_STRING : BOOL (* Returns TRUE if act == xp. *)(* https
 END_FUNCTION
 FUNCTION assertArrayEqual_WSTRING : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_WSTRING.md *)
     VAR_INPUT 
-        act : REFERENCE TO ARRAY[0..32000] OF wstring; (*Variable to test*)
-        xp : REFERENCE TO ARRAY[0..32000] OF wstring; (*Variable to test against*)
+        act : REFERENCE TO ARRAY[0..32000] OF WSTRING; (*Variable to test*)
+        xp : REFERENCE TO ARRAY[0..32000] OF WSTRING; (*Variable to test against*)
         size : UINT; (*Size of the array (ADR(act))*)
     END_VAR
     VAR 
         i : UINT; (*Iterator variable*)
         vStop : UINT; (*Size of the array / End of iteration*)
-        pt1 : REFERENCE TO wstring; (*Pointer to the element of the array act*)
-        pt2 : REFERENCE TO wstring; (*Pointer to the element of the array xp*)
+        pt1 : REFERENCE TO WSTRING; (*Pointer to the element of the array act*)
+        pt2 : REFERENCE TO WSTRING; (*Pointer to the element of the array xp*)
     END_VAR
 END_FUNCTION
 FUNCTION assertArrayEqual_TIME : BOOL (* Returns TRUE if act == xp. *)(* https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_TIME.md *)
