@@ -1,5 +1,5 @@
 FUNCTION assertArrayEqual_WORD
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_WORD.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_WORD.md*)
     vStop := (size / SIZEOF(act^[0])) - 1;
 
     FOR i:=0 TO vStop DO

@@ -1,5 +1,5 @@
 FUNCTION assertNotEqual_REAL
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_REAL.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertNotEqual_REAL.md*)
     assertNotEqual_REAL := act <> xp;
     RETURN;
 

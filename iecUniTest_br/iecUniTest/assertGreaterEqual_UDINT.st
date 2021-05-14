@@ -1,5 +1,5 @@
 FUNCTION assertGreaterEqual_UDINT
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreaterEqual_UDINT.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertGreaterEqual_UDINT.md*)
     assertGreaterEqual_UDINT := act >= xp;
     RETURN;
 

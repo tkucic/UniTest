@@ -1,5 +1,5 @@
 FUNCTION_BLOCK utTestSuite
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fb/utTestSuite.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fb/utTestSuite.md*)
     (*Copy name of object under test*)
     Summary.Id := Id;
     Summary.Name := Name;
@@ -18,30 +18,30 @@ FUNCTION_BLOCK utTestSuite
     		Summary.TotalTests := Summary.TotalTests + 1;
     	END_IF
     	(*Start the test if the Run command is true, the test exists and it is in setup state*)
-    	IF TestCases[i].id > 0 AND TestCases[i].state = utTestCaseStates.SETUP AND runCmd.Q THEN
-    		TestCases[i].state := utTestCaseStates.RUNNING;
+    	IF TestCases[i].id > 0 AND TestCases[i].state = utTestCaseStates.ut_SETUP AND runCmd.Q THEN
+    		TestCases[i].state := utTestCaseStates.ut_RUNNING;
     	END_IF
     	
-    	(*Reset the test if the test exists and its PASSED or FAILED*)
-    	IF TestCases[i].id > 0 AND TestCases[i].state > utTestCaseStates.RUNNING AND resetCmd.Q THEN
-    		TestCases[i].state := utTestCaseStates.SETUP;
+    	(*Reset the test if the test exists and its ut_PASSED or ut_FAILED*)
+    	IF TestCases[i].id > 0 AND TestCases[i].state > utTestCaseStates.ut_RUNNING AND resetCmd.Q THEN
+    		TestCases[i].state := utTestCaseStates.ut_SETUP;
     	END_IF
     	
     	(*Check the states of the test cases*)
-    	IF TestCases[i].state = utTestCaseStates.RUNNING THEN
+    	IF TestCases[i].state = utTestCaseStates.ut_RUNNING THEN
     		Summary.TestsRunning := TRUE;
     	END_IF
-    	IF TestCases[i].state = utTestCaseStates.PASSED THEN
+    	IF TestCases[i].state = utTestCaseStates.ut_PASSED THEN
     		Summary.TestsPassed := Summary.TestsPassed + 1;
     	END_IF
-    	IF TestCases[i].state = utTestCaseStates.FAILED THEN
+    	IF TestCases[i].state = utTestCaseStates.ut_FAILED THEN
     		Summary.TestsFailed := Summary.TestsFailed + 1;
     	END_IF
     END_FOR
 
     (*Error if number of tests defined is 0*)
     IF Summary.TotalTests = 0 THEN
-    	Summary.Error := utErrors.NO_TEST_CASES_DEFINED;
+    	Summary.Error := utErrors.ut_NO_TEST_CASES_DEFINED;
     	RETURN;
     END_IF
 

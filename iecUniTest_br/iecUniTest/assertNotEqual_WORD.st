@@ -1,5 +1,5 @@
 FUNCTION assertNotEqual_WORD
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_WORD.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertNotEqual_WORD.md*)
     assertNotEqual_WORD := act <> xp;
     RETURN;
 

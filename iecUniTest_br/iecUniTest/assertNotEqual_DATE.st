@@ -1,5 +1,5 @@
 FUNCTION assertNotEqual_DATE
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertNotEqual_DATE.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertNotEqual_DATE.md*)
     assertNotEqual_DATE := act <> xp;
     RETURN;
 

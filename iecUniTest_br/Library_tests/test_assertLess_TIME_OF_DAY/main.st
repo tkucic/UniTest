@@ -1,5 +1,5 @@
 PROGRAM _CYCLIC
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Library_tests/prg/test_assertLess_TIME_OF_DAY.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/Library_tests/prg/test_assertLess_TIME_OF_DAY.md*)
     (*Run the test cases*)
     TEST_CASE_1_SETUP();
     TEST_CASE_1_EXEC();

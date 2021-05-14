@@ -1,5 +1,5 @@
 FUNCTION assertLessEqual_DINT
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_DINT.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertLessEqual_DINT.md*)
     assertLessEqual_DINT := act <= xp;
     RETURN;
 

@@ -1,5 +1,5 @@
 FUNCTION assertLess_REAL
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_REAL.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertLess_REAL.md*)
     assertLess_REAL := act < xp;
     RETURN;
 

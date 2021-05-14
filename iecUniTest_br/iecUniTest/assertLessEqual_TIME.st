@@ -1,5 +1,5 @@
 FUNCTION assertLessEqual_TIME
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLessEqual_TIME.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertLessEqual_TIME.md*)
     assertLessEqual_TIME := act <= xp;
     RETURN;
 

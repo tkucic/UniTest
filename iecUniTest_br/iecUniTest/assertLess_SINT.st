@@ -1,5 +1,5 @@
 FUNCTION assertLess_SINT
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertLess_SINT.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertLess_SINT.md*)
     assertLess_SINT := act < xp;
     RETURN;
 

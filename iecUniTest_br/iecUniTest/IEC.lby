@@ -2,9 +2,127 @@
 <?AutomationStudio Version=4.6.4.67 SP?>
 <Library Version="" SubType="IEC" Description="" xmlns="http://br-automation.co.at/AS/Library">
   <Files>
-    <File Description="Exported data types">iecUnitTest.typ</File>
-    <File Description="Exported constants">iecUnitTest.var</File>
-    <File Description="Exported functions and function blocks">iecUnitTest.fun</File>
+    <File Description="Exported data types">iecUniTest.typ</File>
+    <File Description="Exported constants">iecUniTest.var</File>
+    <File Description="Exported functions and function blocks">iecUniTest.fun</File>
+    <File Description="Returns TRUE if condition is NOT TRUE - Source code of function assertFalse">assertFalse.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_BOOL">assertEqual_BOOL.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_BYTE">assertEqual_BYTE.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_WORD">assertEqual_WORD.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_DWORD">assertEqual_DWORD.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_SINT">assertEqual_SINT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_USINT">assertEqual_USINT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_INT">assertEqual_INT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_UINT">assertEqual_UINT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_DINT">assertEqual_DINT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_UDINT">assertEqual_UDINT.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_REAL">assertEqual_REAL.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_LREAL">assertEqual_LREAL.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_STRING">assertEqual_STRING.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_WSTRING">assertEqual_WSTRING.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_TIME">assertEqual_TIME.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_DATE">assertEqual_DATE.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_DATE_AND_TIME">assertEqual_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act = xp. - Source code of function assertEqual_TIME_OF_DAY">assertEqual_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_BOOL">assertNotEqual_BOOL.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_BYTE">assertNotEqual_BYTE.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_WORD">assertNotEqual_WORD.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_DWORD">assertNotEqual_DWORD.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_SINT">assertNotEqual_SINT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_USINT">assertNotEqual_USINT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_INT">assertNotEqual_INT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_UINT">assertNotEqual_UINT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_DINT">assertNotEqual_DINT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_UDINT">assertNotEqual_UDINT.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_REAL">assertNotEqual_REAL.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_LREAL">assertNotEqual_LREAL.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_STRING">assertNotEqual_STRING.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_WSTRING">assertNotEqual_WSTRING.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_TIME">assertNotEqual_TIME.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_DATE">assertNotEqual_DATE.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_DATE_AND_TIME">assertNotEqual_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act <> xp. - Source code of function assertNotEqual_TIME_OF_DAY">assertNotEqual_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_BYTE">assertGreater_BYTE.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_WORD">assertGreater_WORD.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_DWORD">assertGreater_DWORD.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_SINT">assertGreater_SINT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_USINT">assertGreater_USINT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_INT">assertGreater_INT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_UINT">assertGreater_UINT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_DINT">assertGreater_DINT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_UDINT">assertGreater_UDINT.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_REAL">assertGreater_REAL.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_LREAL">assertGreater_LREAL.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_TIME">assertGreater_TIME.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_DATE">assertGreater_DATE.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_DATE_AND_TIME">assertGreater_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act > xp. - Source code of function assertGreater_TIME_OF_DAY">assertGreater_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_BYTE">assertGreaterEqual_BYTE.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_WORD">assertGreaterEqual_WORD.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_DWORD">assertGreaterEqual_DWORD.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_SINT">assertGreaterEqual_SINT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_USINT">assertGreaterEqual_USINT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_INT">assertGreaterEqual_INT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_UINT">assertGreaterEqual_UINT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_DINT">assertGreaterEqual_DINT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_UDINT">assertGreaterEqual_UDINT.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_REAL">assertGreaterEqual_REAL.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_LREAL">assertGreaterEqual_LREAL.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_TIME">assertGreaterEqual_TIME.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_DATE">assertGreaterEqual_DATE.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_DATE_AND_TIME">assertGreaterEqual_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act >= xp. - Source code of function assertGreaterEqual_TIME_OF_DAY">assertGreaterEqual_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_BYTE">assertLess_BYTE.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_WORD">assertLess_WORD.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_DWORD">assertLess_DWORD.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_SINT">assertLess_SINT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_USINT">assertLess_USINT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_INT">assertLess_INT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_UINT">assertLess_UINT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_DINT">assertLess_DINT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_UDINT">assertLess_UDINT.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_REAL">assertLess_REAL.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_LREAL">assertLess_LREAL.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_TIME">assertLess_TIME.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_DATE">assertLess_DATE.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_DATE_AND_TIME">assertLess_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act < xp. - Source code of function assertLess_TIME_OF_DAY">assertLess_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_BYTE">assertLessEqual_BYTE.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_WORD">assertLessEqual_WORD.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_DWORD">assertLessEqual_DWORD.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_SINT">assertLessEqual_SINT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_USINT">assertLessEqual_USINT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_INT">assertLessEqual_INT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_UINT">assertLessEqual_UINT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_DINT">assertLessEqual_DINT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_UDINT">assertLessEqual_UDINT.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_REAL">assertLessEqual_REAL.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_LREAL">assertLessEqual_LREAL.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_TIME">assertLessEqual_TIME.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_DATE">assertLessEqual_DATE.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_DATE_AND_TIME">assertLessEqual_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act <= xp. - Source code of function assertLessEqual_TIME_OF_DAY">assertLessEqual_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_BOOL">assertArrayEqual_BOOL.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_BYTE">assertArrayEqual_BYTE.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_WORD">assertArrayEqual_WORD.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_DWORD">assertArrayEqual_DWORD.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_SINT">assertArrayEqual_SINT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_USINT">assertArrayEqual_USINT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_INT">assertArrayEqual_INT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_UINT">assertArrayEqual_UINT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_DINT">assertArrayEqual_DINT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_UDINT">assertArrayEqual_UDINT.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_REAL">assertArrayEqual_REAL.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_LREAL">assertArrayEqual_LREAL.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_STRING">assertArrayEqual_STRING.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_WSTRING">assertArrayEqual_WSTRING.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_TIME">assertArrayEqual_TIME.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_DATE">assertArrayEqual_DATE.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_DATE_AND_TIME">assertArrayEqual_DATE_AND_TIME.st</File>
+    <File Description="Returns TRUE if act == xp. - Source code of function assertArrayEqual_TIME_OF_DAY">assertArrayEqual_TIME_OF_DAY.st</File>
+    <File Description="Returns TRUE if condition is TRUE - Source code of function assertTrue">assertTrue.st</File>
+    <File Description="Enables running, resetting and reporting for tests cases defined of a POU under test - Source code of functionBlock utTestSuite">utTestSuite.st</File>
+    <File Description="Provides feedback on the status of tests on a system scale - Source code of functionBlock utTestReporter">utTestReporter.st</File>
   </Files>
   <Dependencies>
   </Dependencies>

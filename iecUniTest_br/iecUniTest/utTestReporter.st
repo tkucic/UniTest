@@ -1,5 +1,5 @@
 FUNCTION_BLOCK utTestReporter
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fb/utTestReporter.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fb/utTestReporter.md*)
     (*Reset totals*)
     NrPousUnderTest := 0;
     NrOfTests := 0;
@@ -27,7 +27,7 @@ FUNCTION_BLOCK utTestReporter
     		IF Results[i].TestsRunning THEN
     			TestsInProgress := TRUE;
     		END_IF
-    		IF Results[i].Error <> utErrors.NO_ERROR THEN
+    		IF Results[i].Error <> utErrors.ut_NO_ERROR THEN
     			Error := TRUE;
     		END_IF
     	END_IF

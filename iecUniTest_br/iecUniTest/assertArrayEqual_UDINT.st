@@ -1,5 +1,5 @@
 FUNCTION assertArrayEqual_UDINT
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_UDINT.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_UDINT.md*)
     vStop := (size / SIZEOF(act^[0])) - 1;
 
     FOR i:=0 TO vStop DO

@@ -1,5 +1,5 @@
 FUNCTION assertArrayEqual_WSTRING
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_WSTRING.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_WSTRING.md*)
     vStop := (size / SIZEOF(act^[0])) - 1;
 
     FOR i:=0 TO vStop DO

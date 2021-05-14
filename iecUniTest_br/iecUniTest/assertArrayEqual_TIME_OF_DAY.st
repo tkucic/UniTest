@@ -1,5 +1,5 @@
 FUNCTION assertArrayEqual_TIME_OF_DAY
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertArrayEqual_TIME_OF_DAY.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertArrayEqual_TIME_OF_DAY.md*)
     vStop := (size / SIZEOF(act^[0])) - 1;
 
     FOR i:=0 TO vStop DO

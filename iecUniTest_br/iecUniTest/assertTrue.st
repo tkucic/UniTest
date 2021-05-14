@@ -1,5 +1,5 @@
 FUNCTION assertTrue
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertTrue.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertTrue.md*)
     assertTrue := condition;
     RETURN;
 

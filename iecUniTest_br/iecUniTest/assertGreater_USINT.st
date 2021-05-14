@@ -1,5 +1,5 @@
 FUNCTION assertGreater_USINT
-    (*https://github.com/tkucic/iecUnitTest/blob/main/docs/docs/ns/Global/fc/assertGreater_USINT.md*)
+    (*https://github.com/tkucic/iecUniTest/blob/main/docs/docs/ns/iecUniTest/fc/assertGreater_USINT.md*)
     assertGreater_USINT := act > xp;
     RETURN;
 
