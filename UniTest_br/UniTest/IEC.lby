@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
-<Library Version="0.1.0" SubType="IEC" Description="Assert functions for unit testing" xmlns="http://br-automation.co.at/AS/Library">
+<Library Version="1.0.0" SubType="IEC" Description="Assert functions for unit testing" xmlns="http://br-automation.co.at/AS/Library">
   <Files>
     <File Description="Exported data types">UniTest.typ</File>
     <File Description="Exported constants">UniTest.var</File>
