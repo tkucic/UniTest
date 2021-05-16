@@ -9,8 +9,8 @@ FUNCTION_BLOCK utTestReporter
     TestsInProgress := FALSE;
     Error := FALSE;
 
-    (*Count totals*)
-    FOR i:=0 TO 500 DO
+    (*Count totals*) 
+    FOR i:=0 TO Size DO
     	IF Results[i].Id > 0 THEN
     		(*Count existing POUs under test*)
     		NrPousUnderTest := NrPousUnderTest + 1;
