@@ -127,14 +127,21 @@
           "type": "functionBlock",
           "if": [
             {
-              "name": "VAR_IN_OUT",
+              "name": "VAR_INPUT",
               "vars": [
                 {
                   "name": "Results",
-                  "type": "ARRAY[0..500] OF utTestCaseSummary",
+                  "type": "POINTER TO ARRAY[0..65535] OF utTestCaseSummary",
                   "attribute": "",
                   "initialValue": "",
                   "description": "Summaries of tests for each POU under test"
+                },
+                {
+                  "name": "Size",
+                  "type": "UINT",
+                  "attribute": "",
+                  "initialValue": "",
+                  "description": "Size of the array (number of indexes)"
                 }
               ],
               "attribute": ""
@@ -208,7 +215,7 @@
               "attribute": ""
             }
           ],
-          "code": "(*Reset totals*)\nNrPousUnderTest := 0;\nNrOfTests := 0;\nNrTestsPassed := 0;\nNrTestsFailed := 0;\nPassRate := 0;\nTestsInProgress := FALSE;\nError := FALSE;\n\n(*Count totals*)\nFOR i:=0 TO 500 DO\n\tIF Results[i].Id > 0 THEN\n\t\t(*Count existing POUs under test*)\n\t\tNrPousUnderTest := NrPousUnderTest + 1;\n\t\t(*Count the pass rate. Needs to be divided in the end by the number of total tests*)\n\t\tPassRate := PassRate + Results[i].PassRate;\n\t\t(*Count the number of tests*)\n\t\tNrOfTests := NrOfTests + Results[i].TotalTests;\n\t\t(*Count the number of tests passed*)\n\t\tNrTestsPassed := NrTestsPassed + Results[i].TestsPassed;\n\t\t(*Count the number of tests failed*)\n\t\tNrTestsFailed := NrTestsFailed + Results[i].TestsFailed;\n\t\t\n\t\t(*Indicators*)\n\t\tIF Results[i].TestsRunning THEN\n\t\t\tTestsInProgress := TRUE;\n\t\tEND_IF\n\t\tIF Results[i].Error <> utErrors.ut_NO_ERROR THEN\n\t\t\tError := TRUE;\n\t\tEND_IF\n\tEND_IF\nEND_FOR\nPassRate := PassRate / NrPousUnderTest;",
+          "code": "(*Reset totals*)\nNrPousUnderTest := 0;\nNrOfTests := 0;\nNrTestsPassed := 0;\nNrTestsFailed := 0;\nPassRate := 0;\nTestsInProgress := FALSE;\nError := FALSE;\n\n(*Count totals*)\nFOR i:=0 TO Size DO\n\tIF Results[i].Id > 0 THEN\n\t\t(*Count existing POUs under test*)\n\t\tNrPousUnderTest := NrPousUnderTest + 1;\n\t\t(*Count the pass rate. Needs to be divided in the end by the number of total tests*)\n\t\tPassRate := PassRate + Results[i].PassRate;\n\t\t(*Count the number of tests*)\n\t\tNrOfTests := NrOfTests + Results[i].TotalTests;\n\t\t(*Count the number of tests passed*)\n\t\tNrTestsPassed := NrTestsPassed + Results[i].TestsPassed;\n\t\t(*Count the number of tests failed*)\n\t\tNrTestsFailed := NrTestsFailed + Results[i].TestsFailed;\n\t\t\n\t\t(*Indicators*)\n\t\tIF Results[i].TestsRunning THEN\n\t\t\tTestsInProgress := TRUE;\n\t\tEND_IF\n\t\tIF Results[i].Error <> utErrors.ut_NO_ERROR THEN\n\t\t\tError := TRUE;\n\t\tEND_IF\n\tEND_IF\nEND_FOR\nPassRate := PassRate / NrPousUnderTest;",
           "actions": [],
           "docStrings": [],
           "metrics": {
@@ -26760,7 +26767,7 @@
               "attribute": ""
             }
           ],
-          "code": "testReporter(Results:=gResults);",
+          "code": "testReporter(Results:=ADR(gResults), Size:=SIZEOF(gResults) / SIZEOF(gResults[0]));",
           "actions": [],
           "docStrings": [],
           "metrics": {

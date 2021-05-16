@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-14T22:15:01.6450146" />
-  <contentHeader name="UniTest" version="1.0" modificationDateTime="2021-05-14T22:14:44.6875101" organization="TK Automation" author="Toni Kucic">
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP16" creationDateTime="2021-05-16T21:04:29.3562065" />
+  <contentHeader name="UniTest" version="1.0" modificationDateTime="2021-05-16T21:03:27.530475" organization="TK Automation" author="Toni Kucic">
     <Comment>UniTest is a PLC, IDE and manufacturer agnostic library written using only the features of the IEC61131 standard. Due to this, portability to all IEC compliant platforms is straightforward and can be achieved programmatically or with minimal manual work.</Comment>
     <coordinateInfo>
       <fbd>
@@ -8464,21 +8464,33 @@ END_IF</xhtml>
       </pou>
       <pou name="utTestReporter" pouType="functionBlock">
         <interface>
-          <inOutVars>
+          <inputVars>
             <variable name="Results">
               <type>
-                <array>
-                  <dimension lower="0" upper="500" />
+                <pointer>
                   <baseType>
-                    <derived name="utTestCaseSummary" />
+                    <array>
+                      <dimension lower="0" upper="65535" />
+                      <baseType>
+                        <derived name="utTestCaseSummary" />
+                      </baseType>
+                    </array>
                   </baseType>
-                </array>
+                </pointer>
               </type>
               <documentation>
                 <xhtml xmlns="http://www.w3.org/1999/xhtml">Summaries of tests for each POU under test</xhtml>
               </documentation>
             </variable>
-          </inOutVars>
+            <variable name="Size">
+              <type>
+                <UINT />
+              </type>
+              <documentation>
+                <xhtml xmlns="http://www.w3.org/1999/xhtml">Size of the array (number of indexes)</xhtml>
+              </documentation>
+            </variable>
+          </inputVars>
           <outputVars>
             <variable name="NrPousUnderTest">
               <type>
@@ -8560,24 +8572,24 @@ TestsInProgress := FALSE;
 Error := FALSE;
 
 (*Count totals*)
-FOR i:=0 TO 500 DO
-	IF Results[i].Id &gt; 0 THEN
+FOR i:=0 TO Size DO
+	IF Results^[i].Id &gt; 0 THEN
 		(*Count existing POUs under test*)
 		NrPousUnderTest := NrPousUnderTest + 1;
 		(*Count the pass rate. Needs to be divided in the end by the number of total tests*)
-		PassRate := PassRate + Results[i].PassRate;
+		PassRate := PassRate + Results^[i].PassRate;
 		(*Count the number of tests*)
-		NrOfTests := NrOfTests + Results[i].TotalTests;
+		NrOfTests := NrOfTests + Results^[i].TotalTests;
 		(*Count the number of tests passed*)
-		NrTestsPassed := NrTestsPassed + Results[i].TestsPassed;
+		NrTestsPassed := NrTestsPassed + Results^[i].TestsPassed;
 		(*Count the number of tests failed*)
-		NrTestsFailed := NrTestsFailed + Results[i].TestsFailed;
+		NrTestsFailed := NrTestsFailed + Results^[i].TestsFailed;
 		
 		(*Indicators*)
-		IF Results[i].TestsRunning THEN
+		IF Results^[i].TestsRunning THEN
 			TestsInProgress := TRUE;
 		END_IF
-		IF Results[i].Error &lt;&gt; utErrors.ut_NO_ERROR THEN
+		IF Results^[i].Error &lt;&gt; utErrors.ut_NO_ERROR THEN
 			Error := TRUE;
 		END_IF
 	END_IF
@@ -9465,7 +9477,7 @@ PassRate := PassRate / NrPousUnderTest;</xhtml>
             <variable name="Results">
               <type>
                 <array>
-                  <dimension lower="0" upper="500" />
+                  <dimension lower="0" upper="170" />
                   <baseType>
                     <derived name="utTestCaseSummary" />
                   </baseType>
@@ -44726,7 +44738,7 @@ GVL.Results[testRunner.Id] := testRunner.Summary;</xhtml>
                 </interface>
                 <body>
                   <ST>
-                    <xhtml xmlns="http://www.w3.org/1999/xhtml">testReporter(Results:=GVL.Results);</xhtml>
+                    <xhtml xmlns="http://www.w3.org/1999/xhtml">testReporter(Results:=ADR(GVL.Results), Size:=UDINT_TO_UINT(SIZEOF(GVL.Results) / SIZEOF(GVL.Results[0]))-1);</xhtml>
                   </ST>
                 </body>
                 <addData>
